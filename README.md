@@ -19,24 +19,8 @@ Bu proje, bir araç kiralama şirketinin (Rent a Car) günlük operasyonlarını
 * **Kiralama İşlemleri:** Belirli tarih aralıkları için araç kiralama işlemi ve toplam tutar hesaplama.
 * **Kullanıcı Dostu Arayüz:** İşlemlerin hızlı ve pratik bir şekilde yapılabildiği arayüz tasarımı.
 
-## ⚙️ Kurulum ve Çalıştırma
 
-Projeyi yerel ortamınızda (Localhost) çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
-
-1.  **Projeyi Klonlayın:**
-    ```bash
-    git clone https://github.com/Ahmetavcuu/DriveRent.git
-    ```
-2.  **Bağlantı Ayarlarını (Connection String) Yapın:**
-    * Proje içerisindeki `App.config` (veya `appsettings.json`) dosyasını açın.
-    * Veritabanı bağlantı dizesini kendi SQL Server sunucu bilgilerinize göre güncelleyin.
-3.  **Veritabanını Oluşturun (Migration):**
-    * Package Manager Console (PMC) üzerinden aşağıdaki komutu çalıştırarak veritabanını oluşturun:
-        ```powershell
-        Update-Database
-        ```
-    *(Eğer Code-First yaklaşımı kullanmadıysanız, projedeki `.sql` script dosyasını veritabanınızda çalıştırın.)*
-4.  **Projeyi Çalıştırın:**
+ **Projeyi Çalıştırın:**
     * Visual Studio üzerinde `F5` tuşuna basarak projeyi derleyip çalıştırın.
 
 
